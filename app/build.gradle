@@ -26,5 +26,9 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'battleship.App'
+    mainClass = 'battleship.Main'
+}
+
+run {
+    standardInput = System.in
 }
